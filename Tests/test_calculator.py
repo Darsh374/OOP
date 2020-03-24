@@ -30,4 +30,3 @@ class MyTestCase(unittest.TestCase):
         valueList = [1,2,3]
         result = self.calculator.sumList(valueList)
         self.assertEqual(6, result)
-        
