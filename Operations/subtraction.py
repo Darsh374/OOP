@@ -3,4 +3,3 @@ class Subtraction:
     def difference(minuend, subtraend):
         return minuend - subtraend
 
-        
