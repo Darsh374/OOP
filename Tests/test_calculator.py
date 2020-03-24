@@ -12,7 +12,7 @@ class MyTestCase(unittest.TestCase):
 
     def test_calculator_return_sum(self):
         result = self.calculator.Sum(1,2)
-        self.assertEqual(-1, result)
+        self.assertEqual(3, result)
 
     def test_calculator_return_difference(self):
         result = self.calculator.Difference(1,2)
